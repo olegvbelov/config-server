@@ -5,7 +5,7 @@
 
     <groupId>com.beloll</groupId>
     <artifactId>config-server</artifactId>
-    <version>0..1.0</version>
+    <version>0.1.0</version>
     <packaging>jar</packaging>
 
     <name>config-server</name>
