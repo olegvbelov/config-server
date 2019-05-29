@@ -7,7 +7,9 @@ spring:
     config:
       server:
         git:
-          uri: file:///var/localconfig
+          uri: https://beloll@bitbucket.org/belovsteam/configs.git
+          username: beloll
+          password: iGMJn1RZ
 eureka:
   client:
     service-url:
