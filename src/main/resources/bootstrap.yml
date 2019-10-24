@@ -9,7 +9,12 @@ spring:
         git:
           uri: https://github.com/olegvbelov/configs.git
           username: olegvbelov
-          password: 4GGnVeyX7Ve;
+          password: TTeAB9uD7qRsAmG
+  rabbitmq:
+    hostname: bear.rmq.cloudamqp.com
+    username: fxlypkpi
+    password: gTrlVQCVoG-J2QgpfA2EqtuccCFqa87L
+    vhost: fxlypkpi
 eureka:
   client:
     service-url:
@@ -18,3 +23,8 @@ eureka:
       preferIpAddress: true
       ipAddress: 84.201.161.249
       instanceId: 84.201.161.249:8888
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refesh
