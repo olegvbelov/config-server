@@ -17,7 +17,7 @@ jobs:
       env:
         VERSION: 1.1
       run: |
-        mvn help:evaluate -Dexpression=project.version --file pom.xml -q -DforceStdout
+        mvn help:evaluate -Dexpression=project.version --file pom.xml -q -D$VERSION
         mvn -B package -DskipTests=true --file pom.xml
         echo $VERSION
     - name: Build the Docker image
